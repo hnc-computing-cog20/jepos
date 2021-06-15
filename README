@@ -1,0 +1,31 @@
+This is an EPoS system I made for class. Enjoy.
+In order to use it you will need the database. It's an SQLite3 database and
+should come with everything else, but if it doesn't then you need to create
+3 tables: staff, orders, and inventory.
+
+Database schema as follows...
+
+CREATE TABLE staff
+(
+id smallint primary key not null,
+firstname varchar(20),
+surname varchar(20),
+username varchar(23),
+password varchar(16),
+role smallint
+);
+
+CREATE TABLE orders
+(
+id INTEGER PRIMARY KEY NOT NULL,
+handler VARCHAR(20),
+items TEXT,
+date INTEGER
+);
+
+CREATE TABLE inventory
+(
+id INT PRIMARY KEY NOT NULL,
+name VARCHAR(30),
+price REAL
+);
