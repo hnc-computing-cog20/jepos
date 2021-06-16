@@ -5,21 +5,12 @@
  */
 package my.jepos;
 
-import java.util.Enumeration;
-import java.sql.SQLException;
-import java.util.Hashtable;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 // UI
-import javax.swing.JDialog;
-import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 // Database
-import java.sql.Connection;
-import java.sql.DriverManager;
 import java.sql.SQLException;
-import java.sql.ResultSet;
-import java.sql.Statement;
 import java.util.ArrayList;
 
 /**

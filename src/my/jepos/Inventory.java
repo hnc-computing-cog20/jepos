@@ -5,7 +5,6 @@
  */
 package my.jepos;
 
-import java.sql.Statement;
 import java.sql.SQLException;
 import java.sql.ResultSet;
 import java.util.ArrayList;

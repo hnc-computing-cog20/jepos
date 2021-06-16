@@ -7,15 +7,11 @@ package my.jepos;
 
 import java.sql.SQLException;
 import java.text.DecimalFormat;
-import java.util.ArrayList;
-import java.util.LinkedHashMap;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import javax.swing.JFrame;
 import java.util.Date;
 import java.util.Map;
 import javax.swing.JOptionPane;
-import static my.jepos.login.user;
 
 /**
  *
